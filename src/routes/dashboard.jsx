@@ -1,4 +1,5 @@
 import Dashboard from 'views/Dashboard/Dashboard.jsx';
+import Category from 'views/Category/Category.jsx';
 import Notifications from 'views/Notifications/Notifications.jsx';
 import Icons from 'views/Icons/Icons.jsx';
 import Typography from 'views/Typography/Typography.jsx';
@@ -9,6 +10,7 @@ import UserPage from 'views/UserPage/UserPage.jsx';
 
 var dashRoutes = [
     { path: "/dashboard", name: "Dashboard", icon: "design_app", component: Dashboard },
+    { path: "/category", name: "Category", icon: "files_single-copy-04", component: Category },
     { path: "/icons", name: "Icons", icon: "design_image", component: Icons },
     { path: "/maps", name: "Maps", icon: "location_map-big", component: Maps },
     { path: "/notifications", name: "Notifications", icon: "ui-1_bell-53", component: Notifications },

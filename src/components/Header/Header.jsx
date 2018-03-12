@@ -106,7 +106,6 @@ class Header extends React.Component{
                                 <span className="navbar-toggler-bar bar3"></span>
                             </button>
                         </div>
-                        <NavbarBrand href="/">{this.getBrand()}</NavbarBrand>
                     </div>
                     <NavbarToggler onClick={this.toggle}>
                         <span className="navbar-toggler-bar navbar-kebab"></span>
